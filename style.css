@@ -41,7 +41,7 @@ nav span {
   border: 2px solid red;
 } */
 
-.background p {
+.background span {
   font-weight: bold;
   font-size: 20px;
   border: 2px solid grey;
@@ -72,7 +72,7 @@ ul {
   padding-left: 0px;
 }
 
-.price-tiers {
+.tiers-body {
   width: 100%;
   text-align: center;
   border: 1px solid red;
@@ -81,11 +81,6 @@ ul {
 li {
   background-color: lightgrey;
   border-bottom: 1px solid grey;
-}
-
-.price-body {
-  padding: 0px;
-  border: 2px solid black;
 }
 
 .details {
@@ -107,7 +102,6 @@ footer > a {
 }
 
 .tier {
-  display: inline-block;
   vertical-align: top;
-  width: 300px;
+  display: inline-block;
 }
