@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+#wholepage {
+  border: 4px solid purple;
+}
+
 nav {
   color: grey;
   padding: 6px;
