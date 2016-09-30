@@ -47,7 +47,9 @@ nav span {
 .box {
   width: 200px;
   height: 150px;
-  border: 3px solid black;
+  color: white;
+  padding: 0px;
+  text-align: center;
 }
 
 .green {
@@ -62,10 +64,9 @@ nav span {
   background: black;
 }
 
-.tier-personal {
-  text-align: center;
-  border: 2px solid blue;
-}
+/* .tier-personal {
+  padding: 5px;
+} */
 
 ul {
   list-style: none;
@@ -73,6 +74,23 @@ ul {
 }
 
 .price-tiers {
-  float: left;
   width: 200px;
+  text-align: center;
+  border: 1px solid red;
+}
+
+li {
+  background-color: lightgrey;
+  border-bottom: 1px solid grey;
+}
+
+.price-body {
+  border: 2px solid black;
+}
+
+.details {
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+  border: 1px solid red;
 }
