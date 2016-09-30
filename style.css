@@ -69,7 +69,8 @@ nav span {
 ul {
   list-style: none;
   width: 100%;
-  padding-left: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .tiers-body {
@@ -97,7 +98,7 @@ footer {
 }
 
 footer > a {
-  text-decoration: underline white;
+  text-decoration: underline;
   color: white;
 }
 
