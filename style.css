@@ -6,36 +6,39 @@
 
 nav {
   color: grey;
-  padding: 5px;
+  padding: 6px;
 }
 
-nav span {
+nav a{
   font-size: 12px;
-  padding-right: 20px;
+  padding-left: 40px;
   border: 1px solid blue;
 }
 
-.pricing {
+nav span {
   color: black;
   font-size: 12px;
   border: 1px solid blue;
 }
 
-.background-image {
+.background {
   overflow: hidden;
   height: 330px;
-  width: 95%;
+  width: 93%;
   margin-left: 0px;
-  margin-top: 8px;
+  margin-bottom: 10px;
+  border: 5px solid red;
 }
 
 .background-image img {
-  //min-height: auto;
-  //min-width: auto;
+  height: 800px;
+  width: 1800px;
+  max-height: auto;
+  max-width: auto;
   border: 2px solid red;
 }
 
-.background-image span {
+.background p {
   font-weight: bold;
   font-size: 20px;
   border: 2px solid grey;
@@ -51,6 +54,14 @@ nav span {
   background: green;
 }
 
+.blue {
+  background: blue;
+}
+
+.black {
+  background: black;
+}
+
 .tier-personal {
   text-align: center;
   border: 2px solid blue;
@@ -59,10 +70,6 @@ nav span {
 ul {
   list-style: none;
   padding-left: 0px;
-}
-
-.personal-box-text {
-  border: 2px solid green;
 }
 
 .price-tiers {
