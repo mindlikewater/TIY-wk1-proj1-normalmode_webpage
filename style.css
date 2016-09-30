@@ -40,7 +40,7 @@ nav span {
   //max-height: auto;
   max-width: auto;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 32px;
   border: 2px solid red;
 }
 
@@ -48,6 +48,9 @@ nav span {
   position: absolute;
   text-align: center;
   color: white;
+  font-size: 40px;
+  padding-left: 368px;
+  padding-top: 105px;
 }
 
 span > p {
