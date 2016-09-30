@@ -32,19 +32,27 @@ nav span {
   height: 330px;
   margin-left: 0px;
   margin-bottom: 10px;
+  position: relative;
   border: 5px solid red;
 }
 
-/*.background-image img {
+.background img {
   //max-height: auto;
   max-width: auto;
-  border: 2px solid red;
-} */
-
-.background span {
   font-weight: bold;
   font-size: 20px;
-  border: 2px solid grey;
+  border: 2px solid red;
+}
+
+.background span {
+  position: absolute;
+  text-align: center;
+  color: white;
+}
+
+span > p {
+  margin: 0px;
+  padding: 0px;
 }
 
 .div-box {
