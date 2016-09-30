@@ -5,12 +5,14 @@
 }
 
 #wholepage {
+  width: 93%;
   border: 4px solid purple;
 }
 
 nav {
   color: grey;
   padding: 6px;
+  border: 1px solid green;
 }
 
 nav a{
@@ -28,19 +30,16 @@ nav span {
 .background {
   overflow: hidden;
   height: 330px;
-  width: 93%;
   margin-left: 0px;
   margin-bottom: 10px;
   border: 5px solid red;
 }
 
-.background-image img {
-  height: 800px;
-  width: 1800px;
-  max-height: auto;
+/*.background-image img {
+  //max-height: auto;
   max-width: auto;
   border: 2px solid red;
-}
+} */
 
 .background p {
   font-weight: bold;
@@ -79,6 +78,9 @@ ul {
 
 .price-tiers {
   width: 200px;
+  display: inline-block;
+  margin: 0px;
+  vertical-align: top;
   text-align: center;
   border: 1px solid red;
 }
@@ -97,4 +99,15 @@ li {
   -webkit-column-count: 2;
   column-count: 2;
   border: 1px solid red;
+}
+
+footer {
+  background-color: black;
+  color: grey;
+  padding: 20px 20% 20px;
+}
+
+footer > a {
+  font-style: underline;
+  color: white;
 }
