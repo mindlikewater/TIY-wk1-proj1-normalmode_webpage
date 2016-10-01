@@ -10,7 +10,6 @@
 }
 
 nav {
-  color: grey;
   padding-left: 12px;
   padding-bottom: 7px;
   padding-top: 3px;
@@ -18,13 +17,16 @@ nav {
 
 nav a {
   font-size: 14px;
+  color: grey;
   padding-left: 21px;
+  text-decoration: none;
   text-align: center;
 }
 
 nav span {
   color: black;
   font-size: 14px;
+  text-decoration: none;
 }
 
 .background {
@@ -58,13 +60,13 @@ span > p {
   width: 100%;
   text-align: center;
   padding: 20px 0px 100px;
-  /*padding-bottom: 100px;*/
   border: 1px solid red;
 }
 
 .tier {
   vertical-align: top;
   display: inline-block;
+  padding-top: 20px;
   padding-left: 10px;
 }
 
@@ -73,6 +75,7 @@ span > p {
   height: 180px;
   color: white;
   text-align: center;
+  position: relative;
 }
 
 #green {
@@ -85,6 +88,33 @@ span > p {
 
 #black {
   background: black;
+}
+
+.tiers-text {
+  position: absolute;
+  top: 21px;
+  left: 35px;
+  margin: 0px;
+}
+.tier-level {
+  letter-spacing: 0.3em;
+  font-size: 12px;
+  color: white;
+  overflow: auto;
+}
+
+.tier-rate {
+  font-size: 80px;
+  font-weight: lighter;
+}
+
+.tier-freq {
+  color: lightgrey;
+}
+
+.tiers-text > p {
+  padding: 0px;
+  margin: 0px;
 }
 
 ul {
@@ -113,7 +143,6 @@ li {
   padding-right: 15%;
   font-size: 13px;
   color: rgb(68, 85, 93);
-  border: 1px solid red;
 }
 
 .details-headlines {
