@@ -75,7 +75,7 @@ span > p {
   height: 180px;
   color: white;
   text-align: center;
-  position: relative;
+  padding: 0px 50px;
 }
 
 #green {
@@ -91,9 +91,8 @@ span > p {
 }
 
 .tiers-text {
-  position: absolute;
-  top: 21px;
-  left: 35px;
+  padding-top: 22px;
+  text-align: center;
   margin: 0px;
 }
 .tier-level {
@@ -132,6 +131,27 @@ li {
   border-left: 1px solid #E7E7E7;
   border-right: 1px solid #E7E7E7;
   padding: 10px;
+}
+
+.choose-container {
+  background-color: white;
+  border-bottom: 1px solid #E7E7E7;
+  border-left: 1px solid #E7E7E7;
+  border-right: 1px solid #E7E7E7;
+  padding: 20px 50px;
+}
+
+.choose {
+  font-size: 12px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid #E7E7E7;
+  padding: 10px 20px;
+}
+
+.choose a {
+  text-decoration: none;
 }
 
 .details {
