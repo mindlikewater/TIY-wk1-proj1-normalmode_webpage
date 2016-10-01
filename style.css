@@ -6,7 +6,6 @@
 
 #wholepage {
   width: 93%;
-  border: 1px solid purple;
 }
 
 nav {
@@ -59,8 +58,7 @@ span > p {
 .tiers-body {
   width: 100%;
   text-align: center;
-  padding: 20px 0px 100px;
-  border: 1px solid red;
+  padding: 20px 0px 80px;
 }
 
 .tier {
@@ -68,6 +66,22 @@ span > p {
   display: inline-block;
   padding-top: 20px;
   padding-left: 10px;
+  width: 100%;
+}
+
+#tier-personal {
+  width: 20%;
+  padding-top: 20px;
+}
+
+#tier-smallbiz {
+  width: 20%;
+  padding-top: 20px;
+}
+
+#tier-enterprise {
+  width: 20%;
+  padding-top: 20px;
 }
 
 .div-box {
@@ -75,7 +89,6 @@ span > p {
   height: 180px;
   color: white;
   text-align: center;
-  padding: 0px 50px;
 }
 
 #green {
@@ -93,7 +106,7 @@ span > p {
 .tiers-text {
   padding-top: 22px;
   text-align: center;
-  margin: 0px;
+  width: 100%;
 }
 .tier-level {
   letter-spacing: 0.3em;
@@ -138,7 +151,8 @@ li {
   border-bottom: 1px solid #E7E7E7;
   border-left: 1px solid #E7E7E7;
   border-right: 1px solid #E7E7E7;
-  padding: 20px 50px;
+  padding: 20px 60px;
+  width: 100%;
 }
 
 .choose {
@@ -152,15 +166,16 @@ li {
 
 .choose a {
   text-decoration: none;
+  color: black;
 }
 
 .details {
-  -moz-column-count: 2;
-  -webkit-column-count: 2;
-  column-count: 2;
+  -moz-columns: 2 200px;
+  -webkit-columns: 2 200px;
+  columns: 2 200px;
   column-gap: 40px;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 20%;
+  padding-right: 20%;
   font-size: 13px;
   color: rgb(68, 85, 93);
 }
@@ -181,7 +196,8 @@ footer {
   background-color: black;
   color: grey;
   font-size: 13px;
-  padding: 20px 25% 20px;
+  padding: 20px 30% 20px;
+  width: 100%;
 }
 
 footer > a {
