@@ -31,7 +31,6 @@ nav span {
   overflow: hidden;
   height: 330px;
   margin-left: 0px;
-  margin-bottom: 10px;
 }
 
 .background img {
@@ -51,6 +50,21 @@ nav span {
 span > p {
   margin: 0px;
   padding: 0px;
+}
+
+.tiers-body {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 20px;
+  border: 1px solid red;
+}
+
+.tier {
+  vertical-align: top;
+  display: inline-block;
+  border: 1px solid #E7E7E7;
+  padding: 0px 10px 0px;
 }
 
 .div-box {
@@ -79,23 +93,29 @@ ul {
   padding: 0px;
 }
 
-.tiers-body {
-  width: 100%;
-  text-align: center;
-  padding-bottom: 10%;
-  border: 1px solid red;
-}
-
 li {
+  color: #40535B;
   background-color: #F7F7F7;
   border-bottom: 1px solid #E7E7E7;
+  padding: 10px;
 }
 
 .details {
   -moz-column-count: 2;
   -webkit-column-count: 2;
   column-count: 2;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 12px;
+  color: rgb(68, 85, 93);
   border: 1px solid red;
+}
+
+.details-headlines {
+  color: black;
+  font-size: 16px;
+  word-spacing: 3px;
+  letter-spacing: 0.2em;
 }
 
 footer {
@@ -107,10 +127,4 @@ footer {
 footer > a {
   text-decoration: underline;
   color: white;
-}
-
-.tier {
-  vertical-align: top;
-  display: inline-block;
-  border: #E7E7E7;
 }
