@@ -11,20 +11,21 @@
 
 nav {
   color: grey;
-  padding: 6px;
-  border: 1px solid green;
+  padding-left: 10px;
+  padding-bottom: 7px;
 }
 
-nav a{
-  font-size: 12px;
-  padding-left: 40px;
+nav a {
+  font-size: 14px;
+  padding-left: 30px;
+  text-align: center;
   border: 1px solid blue;
 }
 
 nav span {
   color: black;
   font-size: 12px;
-  border: 1px solid blue;
+  /*border: 3px solid green;*/
 }
 
 .background {
@@ -41,7 +42,6 @@ nav span {
   max-width: auto;
   font-weight: bold;
   font-size: 32px;
-  border: 2px solid red;
 }
 
 .background span {
@@ -49,8 +49,8 @@ nav span {
   text-align: center;
   color: white;
   font-size: 40px;
-  padding-left: 368px;
-  padding-top: 105px;
+  padding-left: 370px;
+  padding-top: 112px;
 }
 
 span > p {
@@ -66,11 +66,11 @@ span > p {
 }
 
 #green {
-  background: green;
+  background: #289952;
 }
 
 #blue {
-  background: blue;
+  background: #2C4387;
 }
 
 #black {
