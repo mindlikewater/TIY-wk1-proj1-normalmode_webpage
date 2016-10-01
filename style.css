@@ -34,6 +34,7 @@ nav span {
 }
 
 .background img {
+  width: 100%;
   font-weight: bold;
   font-size: 32px;
 }
@@ -55,16 +56,15 @@ span > p {
 .tiers-body {
   width: 100%;
   text-align: center;
-  padding-bottom: 100px;
-  padding-top: 20px;
+  padding: 20px 0px 100px;
+  /*padding-bottom: 100px;*/
   border: 1px solid red;
 }
 
 .tier {
   vertical-align: top;
   display: inline-block;
-  border: 1px solid #E7E7E7;
-  padding: 0px 10px 0px;
+  padding-left: 10px;
 }
 
 .div-box {
@@ -95,8 +95,11 @@ ul {
 
 li {
   color: #40535B;
+  font-size: 12px;
   background-color: #F7F7F7;
   border-bottom: 1px solid #E7E7E7;
+  border-left: 1px solid #E7E7E7;
+  border-right: 1px solid #E7E7E7;
   padding: 10px;
 }
 
@@ -104,9 +107,10 @@ li {
   -moz-column-count: 2;
   -webkit-column-count: 2;
   column-count: 2;
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size: 12px;
+  column-gap: 40px;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 13px;
   color: rgb(68, 85, 93);
   border: 1px solid red;
 }
@@ -118,13 +122,19 @@ li {
   letter-spacing: 0.2em;
 }
 
+.details > p {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
 footer {
   background-color: black;
   color: grey;
-  padding: 20px 22% 20px;
+  font-size: 13px;
+  padding: 20px 25% 20px;
 }
 
 footer > a {
-  text-decoration: underline;
   color: white;
+  text-decoration: underline;
 }
