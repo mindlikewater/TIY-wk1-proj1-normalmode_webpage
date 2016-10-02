@@ -151,8 +151,9 @@ li {
   border-bottom: 1px solid #E7E7E7;
   border-left: 1px solid #E7E7E7;
   border-right: 1px solid #E7E7E7;
-  padding: 20px 60px;
+  padding: 36px 60px;
   width: 100%;
+  position: relative;
 }
 
 .choose {
@@ -162,6 +163,9 @@ li {
   border-radius: 20px;
   border: 1px solid #E7E7E7;
   padding: 10px 20px;
+  position: absolute;
+  top: 18px;
+  left: 33%;
 }
 
 .choose a {
